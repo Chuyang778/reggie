@@ -2,6 +2,7 @@ package com.itheima.reggie.common;
 
 /**
  * 自定义业务异常类
+ * 处理信息
  */
 public class CustomException extends RuntimeException {
     public CustomException(String message){
