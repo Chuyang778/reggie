@@ -12,6 +12,11 @@ spring:
       password: 123456
       test-on-borrow: true
       test-while-idle: true
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+      exclude: static/**
 mybatis-plus:
   configuration:
     #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射
